@@ -1,0 +1,34 @@
+body {
+  max-width: 1024px;
+  background-color: rgba(171, 202, 243, 0.137);
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  border-bottom: 1px solid rgb(80, 134, 196);
+  padding-left: 15px;
+}
+
+pre {
+  font-family: "Courier New", "Courier", monospace;
+  color: #39393a;
+}
+
+a {
+  color: blue;
+}
+
+p {
+  padding-left: 35px;
+}
+
+img {
+  border-radius: 2%;
+  width: 150px;    
+}
+
+ul {
+  padding-left: 35px;
+}
