@@ -1,7 +1,7 @@
 body {
   max-width: 1024px;
   background-color: rgba(171, 202, 243, 0.137);
-  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
   margin-left: auto;
   margin-right: auto;
 }
@@ -12,12 +12,15 @@ h2 {
 }
 
 pre {
-  font-family: "Courier New", "Courier", monospace;
+  font-family: 'Courier New', 'Courier', monospace;
   color: #39393a;
 }
 
 a {
   color: blue;
+  text-decoration: none;
+  vertical-align: super;
+  color: black;
 }
 
 p {
@@ -25,10 +28,44 @@ p {
 }
 
 img {
-  border-radius: 2%;
-  width: 150px;    
+  border-radius: 7px;
+  width: 150px;
 }
 
 ul {
   padding-left: 35px;
+}
+
+.contacts {
+  font-size: 15px;
+  list-style: none;
+}
+
+.telegram {
+  font-size: 28px;
+}
+
+.skype,
+.telegram,
+.phone,
+.linkedin {
+  margin-left: -10px;
+  margin-right: 8px;
+}
+
+.skype,
+.telegram {
+  color: #00b0ff;
+}
+
+.phone {
+  color: #00c853;
+}
+
+.linkedin {
+  color: #1565c0;
+}
+
+.contacts li {
+  margin-top: 10px;
 }
